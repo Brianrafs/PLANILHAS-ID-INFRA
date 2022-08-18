@@ -1,0 +1,42 @@
+/* cabeçalho da página */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secundary-color);
+  }
+
+/* Botões de voltar e próximo */
+
+#btn_back, #btn_next{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    min-width: 10rem;
+    max-width: 10rem;
+    height: 2rem;
+}
+
+#next{
+    padding-right: unset;
+    padding-left: 0.5em;
+}
+
+a span.material-symbols-outlined{
+    display: flex;
+    padding-right: 0.5em;
+}
+
+/* titulo da página */
+  
+div.title_box{
+    display: flex;
+    justify-content: center;
+} 
+
+h1.title{
+    display: flex;
+    font-size: 3rem;
+    color: var(--primary-font-color);
+}
